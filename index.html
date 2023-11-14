@@ -3,9 +3,276 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Sen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="asset/css/style.css" />
     <title>Figma to HTML</title>
   </head>
   <body>
-    <h1>Figma to html</h1>
+    <!-- page header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="header-body">
+          <!-- page logo -->
+          <img src="asset/icon/Lesson..svg" alt="lession" class="logo" />
+          <!--page navigation -->
+          <nav class="header-nav">
+            <ul>
+              <li class="active">
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">Courses</a>
+              </li>
+              <li>
+                <a href="#!">Pricing</a>
+              </li>
+              <li>
+                <a href="#!">Reviews</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- singin button -->
+          <div class="action">
+            <a href="#!" class="btn sign-up">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end page header -->
+    <!-- page body -->
+    <div class="main">
+      <!-- hero -->
+      <div class="hero">
+        <div class="main-content">
+          <div class="hero-body">
+            <!-- hero left -->
+            <div class="media-block">
+              <img
+                src="asset/image/hero_img.png"
+                alt="Learn without limits and spread knowledge."
+                class="img"
+              />
+              <div class="hero-summary">
+                <!-- item 1 -->
+                <div class="item">
+                  <div class="icon icon1">
+                    <img src="asset/icon/Orion_page.svg" alt="Orion page" />
+                  </div>
+                  <div class="info">
+                    <p class="label">20 Courses</p>
+                    <p class="title">UI/UX Design</p>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div class="item">
+                  <div class="icon icon2">
+                    <img
+                      src="asset/icon/Orion_code-window.svg"
+                      alt="Orion code window"
+                    />
+                  </div>
+                  <div class="info">
+                    <p class="label">20 Courses</p>
+                    <p class="title">Development</p>
+                  </div>
+                </div>
+                <!-- item 3 -->
+                <div class="item">
+                  <div class="icon icon3">
+                    <img
+                      src="asset/icon/Orion_megaphone.svg"
+                      alt="Orion megaphone"
+                    />
+                  </div>
+                  <div class="info">
+                    <p class="label">30 Courses</p>
+                    <p class="title">Marketing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- hero right -->
+            <div class="content-block">
+              <h1 class="heading">
+                Learn without <br />
+                limits and spread knowledge.
+              </h1>
+              <p class="desc">
+                Build new skills for that “this is my year” feeling with
+                courses, certificates, and degrees from world-class universities
+                and companies.
+              </p>
+              <div class="cta-group">
+                <a href="#!" class="btn content-block-btn">See Courses</a>
+                <button class="watch-video">
+                  <div class="icon">
+                    <img src="asset/icon/Polygon 2.svg" alt="Polygon" />
+                  </div>
+                  <span>Watch Video</span>
+                </button>
+              </div>
+              <p class="desc desc-recent">Recent engagement</p>
+              <div class="courses">
+                <p class="desc"><strong>50K</strong> Students</p>
+                <p class="desc"><strong>70+</strong> Courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- popular -->
+      <div class="popular">
+        <div class="main-content">
+          <!-- popular top -->
+          <div class="popular-top">
+            <div class="info">
+              <h2 class="heading-lv2">Our popular courses</h2>
+              <p class="desc">
+                Build new skills with new trendy courses and shine <br />for the
+                next future career.
+              </p>
+            </div>
+            <div class="controls">
+              <button class="control-btn prev-page">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7 1L1 7L7 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="control-btn next-page">
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L7 7L1 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <!-- popular bottom -->
+          <div class="course-list">
+            <!-- item1 -->
+            <div class="course-item">
+              <a href="#!"
+                ><img src="asset/image/Image1.png" alt="aaa" class="thumb"
+              /></a>
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">
+                    <a href="#!" class="line-clamp break-all"
+                      >Basic web design</a
+                    >
+                  </h3>
+                  <a href=""></a>
+                  <div class="rating">
+                    <img
+                      src="asset/icon/Star 6.svg"
+                      alt="star core"
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc line-clamp line-2 break-all">
+                  Getthebestcourse,gainknowledgeandshineforyourfuture
+                  career.Lorem,ipsumdolorsitametconsecteturadipisicing
+                  elit.Laudantiumnihilfugitdistinctiodictaincidunt
+                </p>
+                <div class="foot">
+                  <span class="price">$120.75</span>
+                  <button class="btn book-now-btn">book now</button>
+                </div>
+              </div>
+            </div>
+            <!-- item2 -->
+            <div class="course-item">
+              <a href="#!"
+                ><img src="asset/image/Image2.png" alt="aaa" class="thumb"
+              /></a>
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">
+                    <a href="#!" class="line-clamp break-all">UI/UX design</a>
+                  </h3>
+                  <div class="rating">
+                    <img
+                      src="asset/icon/Star 6.svg"
+                      alt="star core"
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc line-clamp line-2 break-all">
+                  Get the best course, gain knowledge and shine for your future
+                  career. Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Veniam labore, amet impedit cum iusto facilis ipsa nam
+                </p>
+                <div class="foot">
+                  <span class="price">$120.75</span>
+                  <button class="btn book-now-btn">book now</button>
+                </div>
+              </div>
+            </div>
+            <!-- item3 -->
+            <div class="course-item">
+              <a href="#!"
+                ><img src="asset/image/Image3.png" alt="aaa" class="thumb"
+              /></a>
+              <div class="info">
+                <div class="head">
+                  <h3 class="title">
+                    <a href="#!" class="line-clamp break-all">Web App design</a>
+                  </h3>
+                  <div class="rating">
+                    <img
+                      src="asset/icon/Star 6.svg"
+                      alt="star core"
+                      class="star"
+                    />
+                    <span class="value">4.5</span>
+                  </div>
+                </div>
+                <p class="desc line-clamp line-2 break-all">
+                  Getthebestcourse,gainknowledgeandshineforyourfuture
+                  career.Loremipsumdolorsit,ametconsecteturadipisicing
+                  elit.Aliquamsimilique,distinctioveniamvoluptateamet
+                  magnamsapientedolorevoluptatibus?Quidemblanditiisquam
+                </p>
+                <div class="foot">
+                  <span class="price">$120.75</span>
+                  <button class="btn book-now-btn">book now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end page body -->
   </body>
 </html>
