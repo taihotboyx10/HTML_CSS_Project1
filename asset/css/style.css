@@ -369,3 +369,300 @@ li.active,
 .course-list .course-item .foot {
   margin-top: 12px;
 }
+/*=========feedback========*/
+.feedback {
+  margin-top: 135px;
+  height: 380px;
+  background: #2e2100;
+}
+.feedback .feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+/*===feedback left===*/
+.feedback .feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+}
+.feedback .std-info {
+  margin-top: 96px;
+}
+.feedback .std-info .sdt-img {
+  border-radius: 72px;
+  background: url(<path-to-image>),
+    lightgray -51.126px -33.052px / 228.267% 342.4% no-repeat;
+}
+.feedback .std-info .std-name {
+  display: block;
+  width: 130px;
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42; /* 141.667% */
+}
+.feedback .std-info .std-group {
+  width: 159px;
+  margin-top: 4px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-style: normal;
+  line-height: 1.86; /* 185.714% */
+}
+.feedback .std-info .dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 28px;
+}
+.feedback .std-info .dots .dot {
+  cursor: pointer;
+  display: block;
+  /* gap: 6px; */
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #634700;
+}
+.feedback .std-info .dots .dot.active {
+  background-color: var(--btn_color);
+  cursor: default;
+}
+/*===feedback right===*/
+.feedback .std-comment {
+  margin-top: 96px;
+  max-width: 66%;
+  margin-left: auto;
+}
+.feedback .std-comment .comment {
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.54; /* 153.846% */
+}
+/*=========feature top========*/
+.feature-top {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.feature-top .feature-item {
+  /* padding-top: 65px; */
+  justify-content: space-between;
+  display: flex;
+  height: 438px;
+}
+.feature-top .feature-item .ft-img {
+  display: flex;
+}
+.feature-top .feature-item .ft-content {
+  width: 42%;
+  margin-top: 58px;
+}
+.feature-top .feature-item .ft-img .img-right {
+  margin-left: 30px;
+  width: 270px;
+  height: 405px;
+}
+.feature-top .feature-item .ft-img .img-left {
+  margin-top: 34px;
+  width: 270px;
+  height: 405px;
+}
+.feature-top .feature-item .ft-content .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+}
+.feature-top .feature-item .btn.ft {
+  margin-top: 32px;
+  border: none;
+  line-height: 28px; /* 175% */
+  width: 137px;
+  height: 50px;
+  border-radius: 26px;
+  background: var(--btn_color);
+}
+/*=========feature bottom========*/
+.feature-top.bottom {
+  flex-direction: row-reverse;
+}
+.feature-top.bottom .feature-item .ft-content.bottom {
+  width: 49%;
+}
+.feature-top.bottom .feature-item .ft-img .img-right-bottom {
+  width: 470px;
+  height: 440px;
+}
+/*=========blogs========*/
+.blogs {
+  margin-top: 135px;
+  height: 878px;
+  background: #fffcf4;
+}
+/*===blog-top===*/
+.blogs .blog-top {
+  text-align: center;
+  padding-top: 96px;
+}
+.blogs .blog-top .desc {
+  display: inline-block;
+  width: 448px;
+  margin-top: 16px;
+  color: #696262;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+}
+.blogs .blog-center {
+  display: flex;
+  margin-top: 55px;
+  gap: 30px;
+  overflow: hidden;
+}
+.blogs .blog-center .blog-content {
+  margin-left: 20px;
+}
+.blogs .blog-center .blog-item .date {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.blogs .blog-center .blog-item {
+  background-color: #fff;
+  width: 370px;
+  height: 467px;
+}
+.blogs .blog-center .blog-item:hover {
+  border-radius: 16px;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+.blogs .blog-center .blog-item .time::after {
+  margin-top: 12px;
+  display: block;
+  position: absolute;
+  content: "";
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+}
+.blogs .blog-center .blog-item .date .dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: var(--btn_color);
+  margin-right: 4px;
+}
+.blogs .blog-center .blog-item .date .time {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.blogs .blog-center .blog-item .question a {
+  display: inline-block;
+  margin-top: 25px;
+  width: 330px;
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+}
+.blogs .blog-center .blog-item .blog-btn {
+  margin-top: 12px;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+  height: 50px;
+  border-radius: 25px;
+}
+.blogs .blog-center .blog-item .blog-btn:hover {
+  background-color: var(--btn_color);
+}
+.blogs .blog-bottom {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.blogs .blog-bottom .dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #5f5b53;
+}
+.blogs .blog-bottom .dot:hover {
+  cursor: pointer;
+}
+.blogs .blog-bottom .dot.active {
+  background-color: var(--btn_color);
+  cursor: default;
+}
+/*======================footer====================*/
+.footer {
+  background: #2e2100;
+  padding: 96px 135px 0;
+}
+.row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+.footer .row .column {
+  width: 21.66%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.footer .row .column .desc {
+  margin-top: 18px;
+  /* min-width: 200px; */ /*su dung min-width de gioi han*/
+  max-width: 267px; /*de max de giup no co lai*/
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.footer .row .column .socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+.footer .title {
+  padding-bottom: 14px;
+  padding-right: 48px;
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+}
+.footer .list {
+  margin-top: 28px;
+}
+.footer .list a {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
+.footer .list li:last-child a {
+  margin-bottom: 0;
+}
+.footer .list strong {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.86; /* 185.714% */
+}
+.copyright {
+  padding: 28px 0;
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.86; /* 185.714% */
+}
